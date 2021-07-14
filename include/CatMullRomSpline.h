@@ -17,7 +17,7 @@ double tj(double ti, Point2d Pi, Point2d Pj)
 }
 vector<Point2d> catMullRomSpline(vector<Point2d> inputPoints)
 {
-    // How many points to insert between every two points
+    // Number of points to be added between two input points
     int numSpace = 100;
  
     int numPoints = inputPoints.size();

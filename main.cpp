@@ -13,7 +13,8 @@ using namespace std;
 using namespace cv;   
  
 int main(int argc, char*argv[])  
-{    
+{   
+    //input vector containing discrete points 
     vector<Point2d> input;
     //input.push_back(Point2d(-510, -520));
     input.push_back(Point2d(50,50));
@@ -26,7 +27,6 @@ int main(int argc, char*argv[])
     vector<Point2d> Output = catMullRomSpline(input);
          cout<<"Total Number of Interpolated Points : "<<Output.size()<<" points"<<endl;
  
-    // draw it
     // defining image of type CV_8UC3 with white background
     Mat img(2000, 2000, CV_8UC3, Scalar(255, 255, 255));
 
