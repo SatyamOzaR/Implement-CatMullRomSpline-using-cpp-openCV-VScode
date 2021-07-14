@@ -6,6 +6,8 @@ Link : https://cuda-chen.github.io/programming/image%20processing/2020/01/21/vsc
 
 ### Note : Please make sure that you have included configuration for the CatMullRomSpline.h which is located in include folder
 
+### If you are using VS-code you can also make use of my ".vscode" folder and modify the binary-paths accordingly
+
 ### Run the main.cpp file to get the following output
 
 ## Output for the input of 4 points
