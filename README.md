@@ -4,7 +4,7 @@ Implementing the CatMullRomSpline function to generate the path of interpolating
 ## Please Follow the link to setup configuration for cpp compiler and openCV files 
 Link : https://cuda-chen.github.io/programming/image%20processing/2020/01/21/vscode-with-opencv-cpp-on-windows10-explained.html
 
-### Note : Please make sure you have included in configuration files catMullRomSpline.h is located in include folder
+### Note : Please make sure you have included in configuration files CatMullRomSpline.h is located in include folder
 
 ### Run the main.cpp file to get output
 
